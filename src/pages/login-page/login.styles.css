@@ -1,0 +1,89 @@
+.loginPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(100vh-80px);
+    min-height: calc(100vh-80px);
+    padding : 40px;
+    
+}
+
+.loginCard {
+    height: 420px;
+}
+
+.loginForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 100%;
+    height: calc(100% - 38px);
+
+}
+
+.formGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    width: 100%;
+}
+
+.formInputCon {
+    display: flex;
+    flex-direction:column;
+    gap: 5px;
+
+    color: #494949;
+}
+
+.formLabel {
+    font-size: 20px;
+}
+
+.formInput {
+    width: 100%;
+    height: 40px;
+    padding: 16px;
+
+    border: 1px solid #d6d6d6;
+    border-radius: 6px;
+    font-size: 16px;
+    color: #494949;
+}
+
+.inputButton {
+    width: 100%;
+    height: 40px;
+
+    background-color: #df4242;;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+button:hover {
+    background-color: #df4242;;
+}
+
+.signupLink {
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+    color: #df4242;;
+}
+
+.errorMas {
+    font-size:small;
+    color:red;
+}
+
+.errorMessage {
+    font-size: 14px;
+    color: red;
+}   

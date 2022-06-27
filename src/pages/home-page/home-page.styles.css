@@ -1,0 +1,19 @@
+.homePage {
+    display:flex;
+    justify-content:center;
+    width: calc(100vh-80px);
+    min-height: calc(100vh-80px);
+    padding: 20px;
+
+}
+
+.homePage h2 {
+   
+    font-size: 48px;
+
+}
+
+
+.homePage .card {
+    height: 400px;
+}

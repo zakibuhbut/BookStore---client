@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+
+  font-family: 'Rubik', sans-serif;
+}
+
+body {
+  margin: 0;
+
+  background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.error-message {
+  font-size: 14px;
+  color: #ff0000;
+}
